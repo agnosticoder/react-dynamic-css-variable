@@ -2,11 +2,13 @@ import React from 'react';
 import {render} from 'react-dom';
 import App from './components/App';
 import './styles/styles.scss';
+import 'regenerator-runtime/runtime';
+
 
 
 function RootComponent(){
     return (
-        <div className="container">
+        <div>
             <App />
         </div>
     );
